@@ -2,7 +2,6 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: chiaretto-app
-  namespace: chiaretto-argocd
 spec:
   destination:
     namespace: chiaretto-app
